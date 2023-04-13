@@ -28,7 +28,6 @@ class Program
 
         // Khởi tạo đối tượng Web3 để tương tác với blockchain
         var web3 = new Web3(new Account(buyerAddress), "https://data-seed-prebsc-1-s1.binance.org:8545/");
-        Console.WriteLine(web3.Eth);
 
         // Số lượng token muốn mua
         decimal amountToBuy = 0.001m;
