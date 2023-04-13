@@ -61,7 +61,6 @@ class Program
             Console.WriteLine($"Ether để mua token: {etherBalance}");
         }
 
-
         // Địa chỉ người bán token trên PancakeSwap
         string sellerAddress = "0x261AF0030618a52FA767997ed310174b3Bc3B77F";
 
