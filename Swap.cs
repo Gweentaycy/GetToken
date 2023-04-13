@@ -3,7 +3,6 @@ using System.Numerics;
 
 internal class Swap
 {
-    internal object GetFunction;
     private Web3 web3;
     private string routerContractAddress;
 
