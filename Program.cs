@@ -66,8 +66,8 @@ class Program
         var swap = new Swap(web3, routerContractAddress);
 
         // Thời hạn hoàn thành giao dịch
-        var deadline = DateTime.Now.AddMinutes(20); // Thời hạn hoàn thành giao dịch
-
+        var deadline = DateTime.Now.AddMinutes(20); 
+        
         // Mua token từ người bán
         var txHash = Swap.SwapExactETHForTokens(0, spend, amountToBuy, tokenContractAddress, recipientAddress, deadline);
 
